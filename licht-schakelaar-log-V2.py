@@ -1,4 +1,8 @@
 import tkinter as tk
+import os.path
+
+
+os.path.exists('action.log')
 
 scherm = tk.Tk()
 log_status = open('actions.log' , 'a')
